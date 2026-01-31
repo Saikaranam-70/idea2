@@ -341,7 +341,7 @@
 import React, { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 
-const API = "https://idea2-backend-0gq8.onrender.com/topic";
+const API = "https://oneserve.in/topic";
 
 const difficultyColors = {
   easy: "bg-green-100 text-green-700",

@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import toast from "react-hot-toast";
 
-const API = "https://idea2-backend-0gq8.onrender.com";
+const API = "https://oneserve.in";
 
 const Interview = () => {
   const [topics, setTopics] = useState([]);

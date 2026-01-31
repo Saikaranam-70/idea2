@@ -1,6 +1,6 @@
 // components/Navbar.jsx
 const Navbar = ({ activeTab, setActiveTab }) => {
-  const tabs = ["TOPICS", "MCQS", "INTERVIEW"];
+  const tabs = ["TOPICS", "MCQS", "INTERVIEW", "JOBS"];
 
   return (
     <div className="flex gap-4 bg-gray-900 p-4 rounded-xl">
@@ -18,8 +18,9 @@ const Navbar = ({ activeTab, setActiveTab }) => {
           {tab === "TOPICS"
             ? "Topics"
             : tab === "MCQS"
-            ? "MCQs"
-            : "Interview Questions"}
+            ? "MCQs": tab === "JOBS"? "Jobs"
+            : "Interview Questions"
+            }
         </button>
       ))}
     </div>
