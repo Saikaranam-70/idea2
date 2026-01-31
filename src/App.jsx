@@ -4,7 +4,8 @@ import { Toaster } from 'react-hot-toast'
 import Mcq from './components/Mcq/Mcq'
 import Interview from './components/Interview/Interview'
 import Navbar from './components/Navbar/Navbar'
-import Job from './components/Job/job'
+import Job from './components/Job/Job'
+
 
 const App = () => {
   const [activeTab, setActiveTab] = useState("TOPICS");
