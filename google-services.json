@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "340157492505",
+    "project_id": "speakprep-c7ae7",
+    "storage_bucket": "speakprep-c7ae7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340157492505:android:7faee2a2da7f71ad632988",
+        "android_client_info": {
+          "package_name": "com.gayathri2002.SpeakPrep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZJobkGzDjXtzWfmUiUP4UZcarvPG_K84"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
